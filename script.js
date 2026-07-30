@@ -1,4 +1,4 @@
-//// Hamburger menu
+// Hamburger menu
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
 
