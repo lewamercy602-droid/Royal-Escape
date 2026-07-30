@@ -177,3 +177,15 @@ footer {
     padding: 15px;
     color: gold;
 }
+
+#reviews {
+    background: #111;
+}
+
+#reviews .card {
+    border: 1px solid gold;
+}
+
+#reviews strong {
+    color: gold;
+}
