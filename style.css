@@ -189,3 +189,36 @@ footer {
 #reviews strong {
     color: gold;
 }
+
+.menu-btn {
+    display: none;
+    font-size: 30px;
+    color: gold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+}
